@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+    <!-- internal css -->
+    <style>
+        /* 
+        <selector>{
+            <css-property>:<css-value>
+        }
+
+        selector-examples
+            tag
+            id
+            class
+        
+        */
+        h1 {
+            
+            text-align: center;
+            text-decoration: underline;
+            text-transform: uppercase;
+        }
+
+        li {
+            text-transform: capitalize;
+        }
+
+        img {
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+        }
+
+        /* id selectors */
+        #border-5 {
+            border: 5px solid;
+        }
+
+        /* ________ */
+
+        /* #small-image {
+            height: 80px;
+            width: 80px;
+        }
+
+        #second-small-image{
+            height: 80px;
+            width: 80px;
+        } */
+
+        .tiny-image {
+            height: 40px;
+            width: 40px;
+        }
+
+        .border-1 {
+            border: 1px solid;
+            width: 400px;
+        }
+
+        /* li{
+            font-weight: bold;
+        } */
+
+        .main {
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .text-red{
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="./index.html">home</a>
+
+    <h1 class="text-red">About</h1>
+
+    <img src="./assets/images/leaning.jpg" alt="leaning tower of pica">
+    <img src="./assets/images/100.jpg" alt=" foggy weather" id="small-image" class="tiny-image">
+    <img src="./assets/images/contact-us.png" alt="" id="second-small-image" class="tiny-image">
+
+    <!-- inline-css -->
+    <!-- <p style="border: 1px solid;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati incidunt -->
+    <p class="border-1 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati incidunt
+        asperiores quaerat similique
+        laboriosam, inventore et cum, quidem ad quae numquam impedit. Optio repellendus itaque, nam cum veritatis
+        laborum aliquam.</p>
+    <p class="border-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati incidunt asperiores quaerat
+        similique
+        laboriosam, inventore et cum, quidem ad quae numquam impedit. Optio repellendus itaque, nam cum veritatis
+        laborum aliquam.</p>
+    <p id="border-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati incidunt asperiores quaerat
+        similique
+        laboriosam, inventore et cum, quidem ad quae numquam impedit. Optio repellendus itaque, nam cum veritatis
+        laborum aliquam.</p>
+
+    <h2>Members</h2>
+    <ul>
+        <li class="main text-red"> one - CEO </li>
+        <li class="main text-red">two - CTO</li>
+        <li class="main">three - manager</li>
+        <li>four</li>
+        <li>five</li>
+        <li>six</li>
+    </ul>
+
+
+</body>
+
+</html>
