@@ -5,16 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .parent{
-            height: 400px;
-            width: 200px;
-            background-color: aqua; 
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+
         }
-       .child{
+        .parent{
+            height: 500px;
+            width: 500px;
+            background-color: aqua;
+            display: flex; 
+            
+            flex-wrap: wrap;
+            flex-direction: column-reverse;
+            
+            align-items: flex-end ;
+            text-align: center;
+            align-content: flex-start;
+
+
+
+        }
+       .parent > div {
         height: 100px;
-        width: 100px;
+        width: 90px;
         border: 1px solid red;
+        text-align: center;
+        align-content: center;
+        /* padding: 25px; */
+    
        } 
+
     </style>
 </head>
 <body>
@@ -24,6 +46,12 @@
         <div class="child">item1-2</div>
         <div class="child">item1-3</div>
         <div class="child">item1-4</div>
+        <div class="child">item1-5</div>
+        <div class="child">item1-6</div>
+        <div class="child">item1-7</div>
+        <div class="child">item1-8</div>
     </div>
+
+
 </body>
 </html>
