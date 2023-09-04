@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meddia</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+
+    .projects{
+        gap: 10px;
+        display: grid;
+    }
+
+    .project{
+        border: 1px solid;
+        border-radius: 1rem;
+        padding: .5rem;
+         margin-bottom: 1rem;
+        
+        
+    }
+
+    .project img{
+        object-fit: fill;
+        width: 100%;
+        height: 200px;
+    
+    }
+
+    @media(min-width:640px){
+        .projects{
+            /* display: grid; */
+        
+            grid-template-columns: repeat(2,1fr);
+        }
+    }
+    @media(min-width:1024px){
+        .projects{
+            /* display: grid; */
+            grid-template-columns: repeat(4,1fr);
+        }
+    }
+    @media(min-width:1280px) {
+        .projects{
+            /* display: grid; */
+            grid-template-columns: repeat(5,1fr);
+        }
+        
+    }
+
+  
+</style>
+<body>
+    <div class="projects">
+        <div class="project">
+            <img src="https://picsum.photos/200/300" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente, minus.</p>
+        </div>
+        <div class="project">
+            <img src="https://picsum.photos/200/300" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, aliquid.</p>
+        </div>
+        <div class="project">
+            <img src="https://picsum.photos/200/300" alt="">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, vero?</p>
+        </div>
+        <div class="project">
+            <img src="https://picsum.photos/200/300" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, voluptatem?</p>
+        </div>
+        <div class="project">
+            <img src="https://picsum.photos/200/300" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, adipisci!</p>
+        </div>
+    </div>
+</body>
+</html>
