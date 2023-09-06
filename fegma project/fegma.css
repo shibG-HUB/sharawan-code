@@ -35,6 +35,25 @@ ul li{
 a{
     text-decoration: none;
 }
+/* # mid Hover section start */
+ /* ul .box a{
+    display: block;
+    transition: 0.5s;
+    position: relative;
+}
+
+ul .box:hover a {
+    filter: blur(5px);
+    opacity: .2;
+}
+
+ul .box:hover a:hover{
+    filter: blur(0px);
+opacity: 1;
+} */
+/* # hover end  */
+
+
 
 .last{
     display: flex;
@@ -68,7 +87,8 @@ a{
     grid-template-columns: repeat(2,1fr);
     /* border: 1px solid; */
     margin-top: 50px;
-    
+    gap: 2rem;
+
 
 }
 
@@ -79,21 +99,78 @@ a{
     /* height: 383px; */
 }
 
-.first p{
-    padding: 111px ;
+.anchor .big{
+
     font-family: Rubik;
     font-size: 50px;
     font-weight: 500;
     line-height: 50px;
     letter-spacing: 0em;
-    text-align: center;
+    text-align: left;
     padding-left: 50px;
+
+}
+
+.anchor .small{
+/* padding: 60px; */
+margin-left: 50px;
+    font-family: Rubik;
+font-size: 16px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: #4F5665;
+margin-top: 10px;
+}
+
+.anchor .btn{
+ background-color:#F53855;
+ border-radius: 10px;
+ border: none;
+ margin: 20px 35px 25px 30px;
+ padding: 15px 50px 15px 50px;
+margin-left:45px;
+margin-top:20px;
+color:white;
+
+}
+
+.anchor .btn{
+    box-shadow: #F53855 0px 25px 20px -20px;
     
 }
+
 /* .first{
     border: 1px solid;
+    
 }
+
 .second{
     border: 1px solid;
-} */
+}   */
 
+
+.next-long{
+    border: 1px solid;
+    height: 200px;
+    /* width: 1140px; */
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-content: center;
+    border: none;
+    border-radius: 10px;
+background: #FFF;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.box-one img{
+  height: 90px;
+}
+.box-two img{
+    height: 90px;
+  }
+  .box-three img{
+    height: 90px;
+  }
