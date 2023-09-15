@@ -1,22 +1,26 @@
 *{
-    margin: auto;
-    padding: auto;
+    margin: 0;
+    padding:0;
     box-sizing: border-box;
 }
 
-.head{
+    .head{
     display: flex;
-    padding-top: 20px
-    ;
+    padding-top: 20px;
+    margin-left: 100px;
 
 }
 
 .nav{
     display: flex;
     gap: 10px;
-    font-style: ;
+    display: inline-flex;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+     font-size: 35px;
+}
+.nav img{
+    width: 35px;
+    height: 35px;
 }
 
 .mid ul{
@@ -56,13 +60,55 @@ ul .box:hover a:hover{
 opacity: 1;
 } */
 /* # hover end  */
+.icon-menu{
+    height: 42px;
+    width: 42px;
+    display: flex;
+    align-items: flex-end;
+     position: absolute;
+     right: 10px;
+     top: 10px;
+}
+
+.sidebar
+{
+    display: none;
+   
+}
+.sidebar {
+    margin-left: 500px;
+
+}
+
+@media(min-width:1024px)
+{
+    .icon-menu{
+        display: none;
+    }
+    .sidebar{
+        display: initial;
+    }
+    
+
+}
 
 
+@media(min-width:640px){
+
+    .anchor{
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #F53855;
+    }
+}
+@media(min-width:640px){
 
 .last{
     display: flex;
     gap: 40px;
 }
+}
+
 
 .up{
     border: 1px solid #F53855;
@@ -87,6 +133,10 @@ opacity: 1;
 }
 
 
+
+/* first end ===================== */
+
+/* start new block================= */
 .anchor
 {
     display: grid;
@@ -99,11 +149,7 @@ margin: 50px 20px 10px 50px;
 }
 
 
-.second img{
-    /* object-fit: fill; */
-    /* width: 612px; */
-    /* height: 383px; */
-}
+
 
 .anchor .big{
 
@@ -183,11 +229,14 @@ background: #FFF;
 
 .box-one {
     display: flex;
+    padding-top: 80px;
+
 }
 
 .box-one .f {
     display: flex;
     margin-left: 90px;
+
 }
 
 .box-one .f img{
@@ -197,11 +246,13 @@ background: #FFF;
     border-radius: 70px;
 background: #FFECEC;
 
+
 }
 
 .box-one .s img{
   height: 90px;
   margin-left: 130px;
+  
   
 }
 
@@ -227,6 +278,7 @@ line-height: 30px; /* 150% */
 
 .box-two {
     display: flex;
+    padding-top: 80px;
 }
 
 .box-two .f {
@@ -274,6 +326,7 @@ line-height: 30px; /* 150% */
 .box-three {
     display: flex;
     margin-right:150px;
+    padding-top: 80px;
 }
 
 .box-three .f {
@@ -324,9 +377,7 @@ line-height: 30px; /* 150% */
     background-color: transparent;
 }
 
-.block-f{
-/* border: 1px solid; */
-}
+
 
 
 
